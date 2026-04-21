@@ -1,0 +1,43 @@
+/* For animattion */
+
+/* import AOS from "aos"
+import "aos/dist/aos.css" */
+
+/* Before Return */
+/* You write */
+ /* React.useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 800,
+      easing: "ease-in-sine",
+      delay: 100,
+    });
+    AOS.refresh();
+  }, []); */
+    /* after you are done you would go online and look for AOS-Animation, then copy it and paste it own the data-aos, which is down for example;
+
+  <div className="form" data-aos=""></div> */
+
+  /* //For your Form Page \\ */
+  /* Full name pattern =  /^[A-Za-zÀ-ÖØ-öø-ÿ]+([ '-][A-Za-zÀ-ÖØ-öø-ÿ]+)*(\s+[A-Za-zÀ-ÖØ-öø-ÿ]+([ '-][A-Za-zÀ-ÖØ-öø-ÿ]+)*)+$/; */
+  /* Email pattern =  /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/; */
+  /* Password pattern =  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]).{8,}$/; */
+
+  /* // For Redux \\ */
+
+  /* import { createSlice } from "@reduxjs/toolkit";
+
+  const initialState = {
+  
+  };
+  
+  const slice = createSlice({
+    name: "user",
+    initialState,
+    reducers: {
+    
+    },
+  });
+  
+  export const { login, logout } = slice.actions;
+  export default slice.reducer; */ 
